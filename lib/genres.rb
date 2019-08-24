@@ -5,11 +5,11 @@ def Genre
   extend Concerns::Findable
   attr_accessor :songs, :name
   
+  name
   
-  
-  def initialize(name)
-    @name = name
     @songs = []
+  def initialize(name)
+    @name = 
   end
   
   def self.all
