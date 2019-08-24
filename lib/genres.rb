@@ -10,7 +10,7 @@ def Genre
   def initialize(name)
     @name = name
     @songs = []
-    new_genre = Genre.new(name)
+    genre = Genre.new(name)
   end
   
   def self.all
