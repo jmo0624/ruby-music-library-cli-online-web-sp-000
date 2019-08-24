@@ -10,7 +10,7 @@ def Genre
   def initialize(name)
     @name = name
     @songs = []
-    @genre = genre
+    self.genre = genre if genre != nil
   end
   
   def self.all
