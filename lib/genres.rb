@@ -8,7 +8,7 @@ def Genre
   
   
   def initialize(name)
-    @name = self.new(name)
+    @name = name
     @songs = []
   end
   
