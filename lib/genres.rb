@@ -5,7 +5,7 @@ def Genre
   extend Concerns::Findable
   attr_accessor :songs, :name
   
-  
+  @@all = []
   
   def initialize(name)
     @name = name
