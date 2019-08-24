@@ -1,4 +1,4 @@
-require_relative "../lib/concers/findable.rb"
+require_relative "../lib/concerns/findable.rb"
 
 class Artist
   
