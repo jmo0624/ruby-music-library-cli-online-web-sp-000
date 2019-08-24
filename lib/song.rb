@@ -7,4 +7,4 @@ class Song
   
   @@all = []
   
-  
+  def initialize()
