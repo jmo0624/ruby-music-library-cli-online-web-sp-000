@@ -3,14 +3,13 @@ require_relative "../lib/concerns/findable.rb"
 def Genre
   
   extend Concerns::Findable
-  attr_accessor :name, :songs, :genre
+  attr_accessor :name, :songs
   
   @@all = []
   
   def initialize(name)
     @name = name
     @songs = []
-    self.genre = genre if genre != nil
   end
   
   def self.all
